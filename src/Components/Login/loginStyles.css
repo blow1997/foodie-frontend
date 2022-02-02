@@ -1,0 +1,111 @@
+.login_card{
+    margin: 100px auto;
+    width:400px;
+    padding:20px;
+     
+}
+
+.login_form{
+    margin:0 auto;
+    padding:10px 30px;
+}
+
+.field_container{
+    margin:8px 0px 20px 0px;
+}
+
+.input_field{
+    display: block;
+    margin:8px 0px;
+    width:400px;
+    border:1px solid grey;
+    padding:8px;
+    border-radius: 10px;
+}
+
+.submit_btn{
+    border:1px solid #7F000E;
+    background-color: #7F000E;
+    width:150px;
+    color:white;
+    padding:5px;
+}
+
+@media (min-width: 576px) and (max-width:767px) { 
+    .login_card{
+        margin: 500px auto;
+        width:100px;
+        padding:20px;
+        box-shadow: 10px 10px #00000033;
+    }
+    
+
+    .submit_btn{
+        border:1px solid #7F000E;
+        background-color: #7F000E;
+        margin:15px 100px;
+        width:150px;
+        color:white;
+        padding:5px;
+    }
+ 
+}
+
+@media (min-width: 768px)and (max-width:991px) { 
+    .login_card{
+        margin: 100px auto;
+        width:550px;
+        
+        box-shadow: 10px 10px #00000033;
+    }
+   
+
+    
+}
+
+@media (min-width: 992px)and (max-width:1199px) {
+    .login_card{
+        margin: 150px auto;
+        width:550px;
+        box-shadow: 10px 10px #00000033;
+        
+    }
+   
+    .submit_btn{
+       
+        margin:15px 150px;
+    
+    }
+  
+ }
+
+@media (min-width: 1200px)and (max-width:1399px){
+    .login_card{
+        margin: 150px auto;
+        width:550px;
+        box-shadow: 10px 10px #00000033;
+       
+    }
+    
+    .submit_btn{
+       
+        margin:15px 150px;
+    
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+    .login_card{
+        margin: 150px auto;
+        width:550px;
+        box-shadow: 10px 10px #00000033;
+    }
+  
+    .submit_btn{
+       
+        margin:15px 150px;
+    
+    }
+}

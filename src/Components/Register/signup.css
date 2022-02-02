@@ -1,0 +1,14 @@
+.Register_card{
+    margin: 100px auto;
+    width:400px;
+    padding:20px;
+     
+}
+.form-control{
+     display: block;
+    margin:8px 0px;
+    width:300px;
+    border:1px solid grey;
+    padding:8px;
+    border-radius: 10px;
+}
